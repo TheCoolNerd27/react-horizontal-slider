@@ -1,24 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HorizontalMenu2 from './Components/Horizontal-menu2'; 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <HorizontalMenu2 title="Recently Viewed" cls="" key='1'/>
     </div>
   );
 }
