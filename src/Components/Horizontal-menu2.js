@@ -5,11 +5,15 @@ import './Horizontal-menu2.css';
 //import MenuItems from '../../menu-items/menu-items';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import items from './Data.js';
+import SimpleBar from 'simplebar-react';
+import 'simplebar/dist/simplebar.min.css';
+import styled from 'styled-components';
 import $ from 'jquery';
 import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
+
 
 class HorizontalMenu2 extends React.Component {
 
@@ -20,6 +24,9 @@ class HorizontalMenu2 extends React.Component {
 
       this.state={
         data:items,
+        width:this.props.width?this.props.width:"300",
+        height:this.props.height?this.props.height:"320",
+
       }
       this.scroll = this.scroll.bind(this)
 
@@ -27,19 +34,19 @@ class HorizontalMenu2 extends React.Component {
 
     scroll(direction){
 
-      let far = $( `.main${this.props.cls}`).width()/2*direction;
-      let pos = $(`.main${this.props.cls}`).scrollLeft() + far;
+      let far = $( `.menu${this.props.id}`).width()/2*direction;
+      let pos = $(`.menu${this.props.id}`).scrollLeft() + far;
 
 
-      $(`.main${this.props.cls}`).animate( { scrollLeft: pos }, 800)
+      $(`.menu${this.props.id}`).animate( { scrollLeft: pos }, 800)
 
   if((pos/far)>=3)
   {
-    $(`.next2${this.props.cls}`).hide();
+    $(`.nt${this.props.id}`).hide();
 
   }
   else {
-    $(`.next2${this.props.cls}`).show();
+    $(`.nt${this.props.id}`).show();
   }
 
 
@@ -60,6 +67,12 @@ class HorizontalMenu2 extends React.Component {
   // }
 
   render(){
+    const Car=styled.div`
+padding:15px;
+  display:inline-block;
+  width:${this.state.width};
+  height:${this.state.height};
+`
     
   return (
 
@@ -71,21 +84,27 @@ class HorizontalMenu2 extends React.Component {
 <div className="row">
 
  <div className=" parent col-md-1">
-<a className={`prev2${this.props.cls}`} onClick={this.scroll.bind(null,-1)}>&#10094;</a>
+<a className={`prev2 pv${this.props.id}`} onClick={this.scroll.bind(null,-1)}>&#10094;</a>
 </div>
-    <div className={`main${this.props.cls} col-md-10 row`}>{this.state.data
+   
+    <div className={`main   menu${this.props.id} col-md-10 row`}>
+    
+      {this.state.data
 .map((item,idx)=>(
-<div className="car" key={idx}><Card >
-    <CardImg top className="image" src={item.url} alt="Card image cap" />
+<Car key={idx}><Card >
+    <CardImg top style={{height:`${0.5*this.state.height}px`,width:`${0.9*this.state.width}px`}}  src={item.url} alt={`${item.title}`} />
     <CardBody>
 <CardTitle>{item.title}{item.name} {item.cost}</CardTitle>
       <CardSubtitle>{item.organizer}</CardSubtitle>
       <CardText>{item.loc}<br/>{item.date}</CardText>
       </CardBody>
   </Card>
-</div>))}</div>
+</Car>))}
+
+</div>
+
  <div className="col-md-1">
-<a className={`next2${this.props.cls}`} onClick={this.scroll.bind(null,1)}>&#10095;</a>
+<a className={`next2 nt${this.props.id}`} onClick={this.scroll.bind(null,1)}>&#10095;</a>
  </div>
 </div>
 

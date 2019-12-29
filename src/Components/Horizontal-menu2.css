@@ -11,23 +11,24 @@
   vertical-align: middle;
   display: inline-block;
 
-
+  scrollbar-width: thin;
   overflow-x: scroll;
   overflow-y: hidden;
 
 }
-.car{
+/* .car{
   padding:15px;
   display:inline-block;
   width:300px;
   height:320px;
-}
-.image{
+} */
+/* .image{
   height:150px;
-}
-.card-img-top{
-  width:267px !important;
-}
+  width:267px !important ;
+} */
+/* .card-img-top{
+  width:267px !important ;
+} */
 .title{
   font-size: 25px;
   border-bottom: 3px solid grey;
@@ -56,9 +57,13 @@
   margin-top:125px;
 
 }
-.main::-webkit-scrollbar,.main1::-webkit-scrollbar,.main2::-webkit-scrollbar {
-    display: none;
+.main::-webkit-scrollbar{
+  
+	display:none;
 }
+
+
+
 .prev2,.prev21,.prev22 {
   margin-right: 5px;
   float:left;
