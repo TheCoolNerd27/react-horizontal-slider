@@ -40,14 +40,7 @@ class HorizontalMenu2 extends React.Component {
 
       $(`.menu${this.props.id}`).animate( { scrollLeft: pos }, 800)
 
-  if((pos/far)>=3)
-  {
-    $(`.nt${this.props.id}`).hide();
-
-  }
-  else {
-    $(`.nt${this.props.id}`).show();
-  }
+  
 
 
     }
