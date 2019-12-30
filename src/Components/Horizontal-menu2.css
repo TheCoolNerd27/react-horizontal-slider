@@ -3,7 +3,7 @@
    justify-content: space-around;
 
 }
-.main,.main1,.main2{
+.main{
    flex-flow: nowrap !important;
 
    padding-bottom:20px;
@@ -16,28 +16,17 @@
   overflow-y: hidden;
 
 }
-/* .car{
-  padding:15px;
-  display:inline-block;
-  width:300px;
-  height:320px;
-} */
-/* .image{
-  height:150px;
-  width:267px !important ;
-} */
-/* .card-img-top{
-  width:267px !important ;
-} */
+
 .title{
   font-size: 25px;
+  text-align: left;
   border-bottom: 3px solid grey;
   padding-top: 20px;
   border-width: thin;
   
 }
 
-.prev2, .next2,.prev21, .next21,.prev22, .next22 {
+.prev2, .next2{
   padding-top: 10px;
   padding-bottom: 10px;
   height: 100%;
@@ -51,7 +40,7 @@
 }
 
 
-.next2,.next21,.next22 {
+.next2 {
   margin-left: 5px;
   float: right;
   margin-top:125px;
@@ -64,14 +53,14 @@
 
 
 
-.prev2,.prev21,.prev22 {
+.prev2 {
   margin-right: 5px;
   float:left;
   margin-top:125px;
 
 
 }
-.prev2:hover,.prev21:hover, .next2:hover,.next21:hover,.next22:hover,.prev22:hover {
+.prev2:hover.next2:hover{
   color: white;
   height: 100%;
   /* //background-color: rgba(0,0,0,0.8); */
@@ -81,7 +70,7 @@
   overflow-x:scroll;
 } */
 @media only screen and (max-width: 768px) {
-  .prev2, .next2,.prev21, .next21,.prev22, .next22{
+  .prev2, .next2{
     display:none;
   }
  

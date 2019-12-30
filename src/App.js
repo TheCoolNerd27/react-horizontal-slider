@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
         <HorizontalMenu2 title="Recently Viewed" width="300" height="300" id="1" />
-        <HorizontalMenu2 title="Recently Viewed" id="2" />
+        <HorizontalMenu2 title="Recently Viewed" id="2"  />
         <HorizontalMenu2 title="Recently Viewed" id="3" />
         <HorizontalMenu2 title="Recently Viewed" id="4" />
         <HorizontalMenu2 title="Recently Viewed" id="5" />
