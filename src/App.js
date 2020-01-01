@@ -8,12 +8,12 @@ import HorizontalMenu2 from './Components/Horizontal-menu2';
 function App() {
   return (
     <div className="App">
-      
-        <HorizontalMenu2 title="Recently Viewed" data={items}width="300" height="300" id="1" />
-        <HorizontalMenu2 title="Recently Viewed" data={items} id="2"  />
-        <HorizontalMenu2 title="Recently Viewed" data={items} id="3" />
-        <HorizontalMenu2 title="Recently Viewed" data={items} id="4" />
-        <HorizontalMenu2 title="Recently Viewed" data={items} id="5" />
+
+        <HorizontalMenu2 title="Menu 1" data={items}width="300" height="300" id="1" />
+        <HorizontalMenu2 title="Menu 2" data={items} id="2"  />
+        <HorizontalMenu2 title="Menu 3" data={items} id="3" />
+        <HorizontalMenu2 title="Menu 4" data={items} id="4" />
+        <HorizontalMenu2 title="Menu 5" data={items} id="5" />
     </div>
   );
 }
