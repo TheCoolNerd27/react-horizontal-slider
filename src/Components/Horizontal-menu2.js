@@ -4,8 +4,8 @@ import './Horizontal-menu2.css';
 //import items from '../../Data.js';
 //import MenuItems from '../../menu-items/menu-items';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import items from './Data.js';
-import SimpleBar from 'simplebar-react';
+
+
 import 'simplebar/dist/simplebar.min.css';
 import styled from 'styled-components';
 import $ from 'jquery';
@@ -23,7 +23,7 @@ class HorizontalMenu2 extends React.Component {
       super(props);
 
       this.state={
-        data:items,
+        data:this.props.data,
         width:this.props.width?this.props.width:"300",
         height:this.props.height?this.props.height:"320",
 
@@ -87,9 +87,10 @@ padding:15px;
 <Car key={idx}><Card >
     <CardImg top style={{height:`${0.5*this.state.height}px`,width:`${0.9*this.state.width}px`}}  src={item.url} alt={`${item.title}`} />
     <CardBody>
-<CardTitle>{item.title}{item.name} {item.cost}</CardTitle>
-      <CardSubtitle>{item.organizer}</CardSubtitle>
-      <CardText>{item.loc}<br/>{item.date}</CardText>
+<CardTitle><b>{item.title}{item.name} {item.cost}</b></CardTitle>
+<CardSubtitle>{item.organizer}{item.company}</CardSubtitle>
+      <CardText key={1}>{item.desc}</CardText>
+      <CardText key={2}>{item.loc}<br/>{item.date}</CardText>
       </CardBody>
   </Card>
 </Car>))}
