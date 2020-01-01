@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-horizontal-slider/static/css/main.951e84e0.chunk.css",
-    "main.js": "/react-horizontal-slider/static/js/main.0cefe1b6.chunk.js",
-    "main.js.map": "/react-horizontal-slider/static/js/main.0cefe1b6.chunk.js.map",
+    "main.js": "/react-horizontal-slider/static/js/main.b50694af.chunk.js",
+    "main.js.map": "/react-horizontal-slider/static/js/main.b50694af.chunk.js.map",
     "runtime-main.js": "/react-horizontal-slider/static/js/runtime-main.86daa104.js",
     "runtime-main.js.map": "/react-horizontal-slider/static/js/runtime-main.86daa104.js.map",
     "static/css/2.449bd99d.chunk.css": "/react-horizontal-slider/static/css/2.449bd99d.chunk.css",
     "static/js/2.0a1d7922.chunk.js": "/react-horizontal-slider/static/js/2.0a1d7922.chunk.js",
     "static/js/2.0a1d7922.chunk.js.map": "/react-horizontal-slider/static/js/2.0a1d7922.chunk.js.map",
     "index.html": "/react-horizontal-slider/index.html",
-    "precache-manifest.0dba40d6935df82377b3f22f8b4a857f.js": "/react-horizontal-slider/precache-manifest.0dba40d6935df82377b3f22f8b4a857f.js",
+    "precache-manifest.f6fb75a67a31585545ce430c2d97c689.js": "/react-horizontal-slider/precache-manifest.f6fb75a67a31585545ce430c2d97c689.js",
     "service-worker.js": "/react-horizontal-slider/service-worker.js",
     "static/css/2.449bd99d.chunk.css.map": "/react-horizontal-slider/static/css/2.449bd99d.chunk.css.map",
     "static/css/main.951e84e0.chunk.css.map": "/react-horizontal-slider/static/css/main.951e84e0.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.449bd99d.chunk.css",
     "static/js/2.0a1d7922.chunk.js",
     "static/css/main.951e84e0.chunk.css",
-    "static/js/main.0cefe1b6.chunk.js"
+    "static/js/main.b50694af.chunk.js"
   ]
 }

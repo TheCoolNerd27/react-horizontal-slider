@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c6ce4e261e028ec820001f0a8ffb649",
+    "revision": "b6b53733053343eec161079c59f9c5a3",
     "url": "/react-horizontal-slider/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-horizontal-slider/static/css/2.449bd99d.chunk.css"
   },
   {
-    "revision": "76a06e3a239c6c0badb7",
+    "revision": "16ee25db82d86813e687",
     "url": "/react-horizontal-slider/static/css/main.951e84e0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-horizontal-slider/static/js/2.0a1d7922.chunk.js.LICENSE"
   },
   {
-    "revision": "76a06e3a239c6c0badb7",
-    "url": "/react-horizontal-slider/static/js/main.0cefe1b6.chunk.js"
+    "revision": "16ee25db82d86813e687",
+    "url": "/react-horizontal-slider/static/js/main.b50694af.chunk.js"
   },
   {
     "revision": "c1694e8a59e1db004ab3",
