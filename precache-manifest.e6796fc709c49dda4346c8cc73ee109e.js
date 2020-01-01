@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ebd3b7bf86edb1f5361269504700046",
+    "revision": "291c12cf9a1386933db400a3c5a2e602",
     "url": "/react-horizontal-slider/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-horizontal-slider/static/css/2.449bd99d.chunk.css"
   },
   {
-    "revision": "03e5c70f0e5178537edd",
-    "url": "/react-horizontal-slider/static/css/main.317b8a82.chunk.css"
+    "revision": "47ebb9e73c5a31cff0e9",
+    "url": "/react-horizontal-slider/static/css/main.951e84e0.chunk.css"
   },
   {
     "revision": "66135d970ecccc92dd60",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-horizontal-slider/static/js/2.0a1d7922.chunk.js.LICENSE"
   },
   {
-    "revision": "03e5c70f0e5178537edd",
-    "url": "/react-horizontal-slider/static/js/main.e61973ec.chunk.js"
+    "revision": "47ebb9e73c5a31cff0e9",
+    "url": "/react-horizontal-slider/static/js/main.cc36c5c8.chunk.js"
   },
   {
     "revision": "c1694e8a59e1db004ab3",
