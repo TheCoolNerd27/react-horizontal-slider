@@ -9,7 +9,7 @@
    padding-bottom:20px;
 
   vertical-align: middle;
-  display: inline-block;
+  /* display: inline-block; */
 
   scrollbar-width: thin;
   overflow-x: scroll;
