@@ -52,8 +52,8 @@ You can find the  [Demo](https://thecoolnerd27.github.io/react-horizontal-slider
 
 |Props       |Type        |Default     |Required |Description |
 |--|--|--|--|--|
-| height|Number  | 300  | No | The height of each induvidual Card in the menu  |
-| width|Number|320| No|The width of each induvidual Card in the menu   |
+| height|Number  | 320  | No | The height of each induvidual Card in the menu  |
+| width|Number|300| No|The width of each induvidual Card in the menu   |
 |id|String|NA|Yes|When multiple sliders are used each should have a unique id|
 |title|String|None|No|The title of a particular Slider.|
 |data|Object|NA|Yes|The data to be displayed in the slider|
