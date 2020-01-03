@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Horizontal-menu2.css';
+import './index.css';
 //import items from '../../Data.js';
 //import MenuItems from '../../menu-items/menu-items';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,7 +15,7 @@ import {
 } from 'reactstrap';
 
 
-class HorizontalMenu2 extends React.Component {
+class HorizontalSlider extends React.Component {
 
   constructor(props)
     {
@@ -64,20 +64,15 @@ class HorizontalMenu2 extends React.Component {
 padding:15px;
   display:inline-block;
   width:${this.state.width};
-  height:${this.state.height};
-`
-    
-  return (
+  height:${this.state.height};`
+return (
 
-
-  <div className="container">
-
-
+<div className="container">
 <div className="title">{`${this.props.title}`}</div>
 <div className="row">
 
  <div className=" parent col-md-1">
-<a className={`prev2 pv${this.props.id}`} onClick={this.scroll.bind(null,-1)}>&#10094;</a>
+    <a className={`prev2 pv${this.props.id}`} href="#" onClick={this.scroll.bind(null,-1)}>&#10094;</a>
 </div>
    
     <div className={`main   menu${this.props.id} col-md-10 row`}>
@@ -87,20 +82,21 @@ padding:15px;
 <Car key={idx}><Card >
     <CardImg top style={{height:`${0.5*this.state.height}px`,width:`${0.9*this.state.width}px`}}  src={item.url} alt={`${item.title}`} />
     <CardBody>
-<CardTitle><b>{item.title}{item.name} {item.cost}</b></CardTitle>
-<CardSubtitle>{item.organizer}{item.company}</CardSubtitle>
+      <CardTitle style={{ fontWeight: 'bold' }}>{item.title} {item.cost}</CardTitle>
+      <CardSubtitle>{item.company}</CardSubtitle>
       <CardText key={1}>{item.desc}</CardText>
-      <CardText key={2}>{item.loc}<br/>{item.date}</CardText>
-      </CardBody>
+    </CardBody>
   </Card>
-</Car>))}
+</Car>
+))}
 
 </div>
 
  <div className="col-md-1">
-<a className={`next2 nt${this.props.id}`} onClick={this.scroll.bind(null,1)}>&#10095;</a>
+<a href="" className={`next2 nt${this.props.id}`} onClick={this.scroll.bind(null,1)}>&#10095;</a>
  </div>
 </div>
+
 
 </div>
 
@@ -110,4 +106,4 @@ padding:15px;
 }
 }
 
-export default HorizontalMenu2;
+export default HorizontalSlider;

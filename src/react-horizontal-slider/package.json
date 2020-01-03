@@ -1,0 +1,21 @@
+{
+  "name": "react-horizontal-slider",
+  "version": "1.0.0",
+  "description": "A Horizontal Menu/Slider component for ReactJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/TheCoolNerd27/react-horizontal-slider)"
+  },
+  "keywords": [
+    "Horizontal",
+    "Slider",
+    "Menu",
+    "React"
+  ],
+  "author": "Rohan Ashra <rohan.ashra27@gmail.com> (https://github.com/TheCoolNerd27)",
+  "license": "ISC"
+}

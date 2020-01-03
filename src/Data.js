@@ -1,16 +1,11 @@
- const items=[{
-    "albumId": 1,
-    "id": 1,
-    "title": "accusamus beatae ad facilis cum similique qui sunt",
-    "url": "https://storage.googleapis.com/ehimages/2019/8/26/img_edefd3ae9c96b72b0ffffb04001fea2e_1566836921766_processed_original.jpg",
-    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
-  },
+ const items=[
   {
     "albumId": 1,
     "id": 2,
     "title": "reprehenderit est deserunt velit ipsam",
     "url": "https://via.placeholder.com/600/771796",
-    "thumbnailUrl": "https://via.placeholder.com/150/771796"
+    "thumbnailUrl": "https://via.placeholder.com/150/771796",
+   
   },
   {
     "albumId": 1,
